@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>이젠 Cook</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#nav-menu">
+    <!-- 내비게이션영역 시작-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand gugi-font" href="#"><img src="../프로젝트1/images/logo.png">이젠Cook</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav-menu">
+            <ul class="navbar-nav ms-auto my-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">홈</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-chef">쉐프 소개</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">포트폴리오</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">서비스</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">블로그</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">연락처</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- 내비게이션영역 끝-->
+    <!-- 헤더 영역 시작 -->
+    <header id="home" class="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
+        <h1 class="display-3 fw-bold mb-5">이젠 ART Cook</h1>
+        <h4 class="fs-2 mb-3">요리와 아트의 만남</h4>
+        <p class="lead mb-5">아름다운 한 끼로 삶의 색채를 더하다</p>
+        <button type="button" class="btn btn-outline-warning rounded-pill" data-bs-toggle="modal" data-bs-target="#homeModal">ART Cook 대표 요리 
+        </button>
+        <!-- Modal -->
+<div class="modal fade" id="homeModal" tabindex="-1" aria-labelledby="homeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-dark" id="homeModalLabel">ART Cook 대표요리</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <img src="../프로젝트1/images/bestmenu.jpg" alt="대표요리" class="img-fluid">
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, non? Enim ex possimus incidunt commodi quod distinctio autem inventore sit!</p>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minima nesciunt obcaecati quisquam voluptatibus placeat. Corrupti officia nobis fuga a. Ad itaque sint, qui reiciendis ratione illo nam corporis libero eligendi impedit, obcaecati labore animi Corrupti officia nobis fuga a. Ad itaque sint, qui reiciendis ratione illo nam corporis libero eligendi impedit, obcaecati labore animi! 
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </header>
+
+    <!-- 헤더 영역 끝 -->
+
+    <!-- 쉐프 소개 섹션 시작 -->
+    <section class="container py-5" id="about-chef">
+        <div class="text-center py-5">
+            <h2 class="fw-bold">ART Cook Chef</h2>
+            <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, magni. Voluptatibus possimus officia natus quaerat.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="./images/chef.jpg" alt="쉐프 프로필 사진" class="img-fluid">
+            </div>
+            <div class="col-md-7">
+                <h3 class="fw-bold mb-4 mt-3">이젠 Emmi</h3>
+                <p class="lh-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti maxime laudantium minus, provident incidunt quo laborum adipisci eos facilis ab repudiandae velit nesciunt perferendis error.</p>
+                <p class="lh-lg">ut asperiores accusantium doloremque! Dolorum nihil et ipsa ut expedita corporis tempore facilis quos!</p>  
+            </div>
+        </div>
+    </section>
+    <!-- 쉐프 소개 섹션 끝 -->
+    <!-- 포트폴리오 섹션 시작-->
+    <section id="portfolio" class="bg-dark py-5">
+        <div class="container overflow-hidden">
+                <div class="text-center text-white py-5">
+                    <h2 class="fw-bold md-3">ART Cook 포트폴리오</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, autem.</p>
+                </div>
+                <div class="container-sm">
+                    <div class="row g-4 pb-5">
+                        <div class="col-sm-6 col-lg-4">
+                            <img src="/프로젝트1/images/portfolio1.jpg" class="img-thumbnail img-fluid" alt="...">
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <img src="/프로젝트1/images/portfolio2.jpg" class="img-thumbnail img-fluid" alt="...">
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <img src="/프로젝트1/images/portfolio3.jpg" class="img-thumbnail img-fluid" alt="...">
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <img src="/프로젝트1/images/portfolio4.jpg" class="img-thumbnail img-fluid" alt="...">
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <img src="/프로젝트1/images/portfolio5.jpg" class="img-thumbnail img-fluid" alt="...">
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <img src="/프로젝트1/images/portfolio6.jpg" class="img-thumbnail img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- 포트폴리오 섹션 끝-->
+    <!-- 서비스 세션 시작-->
+    <section class="container py-5" id="service">
+        <div class="text-center py-5">
+            <h3>ART Cook 서비스</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, mollitia!</p>
+        </div>
+        <div class="row md-5 g-4 py-5">
+            <div class="col-md-6">
+                <div class="card-hover shadow roiunded p-4">
+                    <div class="d-flex align-items-center py-3">
+                        <img src="../프로젝트1/images/service1.jpg" class="rounded-circle">
+                        <div class="ms-3">
+                            <h3 class="fw-bold">케이터링</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nisi     accusamus totam veritatis consequatur quasi cumque, ut explicabo distinctio deleniti.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-hover shadow roiunded p-4">
+                    <div class="d-flex justify-content-end py-3 align-items-center">
+                        <div class="me-3">
+                            <h3 class="fw-bold">디저트 아트</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <img src="../프로젝트1/images/service2.jpg" class="rounded-circle">
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nisi     accusamus totam veritatis consequatur quasi cumque, ut explicabo distinctio deleniti.?</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-hover shadow roiunded p-4">
+                    <div class="d-flex align-items-center py-3">
+                        <img src="../프로젝트1/images/service3.jpg" class="rounded-circle">
+                        <div class="ms-3">
+                            <h3 class="fw-bold">아트쿡 클래스</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nisi     accusamus totam veritatis consequatur quasi cumque, ut explicabo distinctio deleniti.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card-hover shadow roiunded p-4">
+                    <div class="d-flex justify-content-end py-3 align-items-center py-3">
+                        <div class="me-3">
+                            <h3 class="fw-bold">신제품 개발</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <img src="../프로젝트1/images/service4.jpg" class="rounded-circle">
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nisi     accusamus totam veritatis consequatur quasi cumque, ut explicabo distinctio deleniti.?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 서비스 세션 끝--> 
+    <!-- SNS 세션 시작-->
+    <section class="py-5" id="sns-links">
+        <div class="container text-center text-white">
+            <h2 class="fw-bold md-3">ART SNS</h2>
+            <p class="pd-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, eius!</p>
+            <div class="d-flex justify-content-evenly mt-4 w-50 m-auto">
+                    <a href="https://www.youtube.com/?app=desktop&hl=ko&gl=KR" class="btn btn-danger rounded-pill btn-lg px-4"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.facebook.com/" class="btn btn-primary rounded-pill btn-lg px-4"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/" class="btn btn-warning rounded-pill btn-lg px-4"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+    </section>
+    <!-- SNS 세션 끝-->
+    <!-- 블로그 세션 시작-->
+    <section class="container overflow-hidden py-5" id="blog">
+        <div class="text-center py-5">
+            <h2 class="fw-bold">ART Cook 블로그</h2>
+            <p class="lead text-muted py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eos!</p>
+        </div>
+                <div class="row pb-5 gy-4">
+                    <div class="col-lg col-md-6">
+                        <div class="card">
+                            <img src="../프로젝트1/images/blog1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">블로그 1</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-warning">보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-6">
+                        <div class="card">
+                            <img src="../프로젝트1/images/blog2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">블로그 2</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-warning">보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-6">
+                        <div class="card">
+                            <img src="../프로젝트1/images/blog3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">블로그 3</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-warning">보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-6">
+                        <div class="card">
+                            <img src="../프로젝트1/images/blog4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">블로그 4</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-warning">보러가기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- 블로그 세션 끝-->
+    <!-- 뉴스 섹션 시작-->
+    <section>
+        <div class="overflow-hidden py-5" id="news-links">
+            <div class="container">
+                <div class="row p-4 align-items-center">
+                    <div class="col-lg-9 text-white">
+                        <h2 class="fw-bold mb-3">ART 쿡 뉴스</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat numquam nam optio mollitia! Aliquam, placeat commodi nulla dolor enim numquam eligendi ducimus repudiandae eius quam ipsam, officiis eveniet eos doloribus.</p>
+                    </div>
+                    <div class="col-lg-3">
+                                            <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newsModal">뉴스 보기
+                        </button>
+  
+                    <!-- Modal -->
+                        <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="newsModalLabel">ART Cook</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="ratio ratio-16x9">
+                                            <iframe src="https://www.youtube.com/embed/4LIt_ICJyjk?si=OxG5GEkH5LYRCReX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- 뉴스 섹션 끝-->
+    <!-- 연락처 세션 시작-->
+    <section class="container overflow-hidden py-5 text-center" id="contact">
+        <div class="py-5">
+            <h2 class="fw-bold">Contact</h2>
+            <p class="lead text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, accusantium.</p>
+        </div>
+        <div class="row p-5">
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-warning">
+                    <i class="bi bi-envelope text-warning fs-5"></i>
+                    <h3>이메일</h3>
+                    <hr>
+                    <p>xxxxxx@naver.com</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-success">
+                    <i class="bi bi-telephone text-success fs-5"></i>
+                    <h3>전화번호</h3>
+                    <hr>
+                    <p>010-0000-0000</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-warning">
+                    <i class="bi bi-house text-warning fs-5"></i>
+                    <h3>주소</h3>
+                    <hr>
+                    <p class="text-muted text">서울시 종구 세종대로</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- 연락처 세션 끝-->
+
+    <div class="container-fluid bg-dark"></div>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
